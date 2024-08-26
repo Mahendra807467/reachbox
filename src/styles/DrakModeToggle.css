@@ -1,0 +1,12 @@
+.dark-mode-toggle {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px;
+    background-color: var(--secondary-color);
+    border-radius: 4px;
+}
+
+.dark-mode-icon {
+    margin-right: 10px;
+}

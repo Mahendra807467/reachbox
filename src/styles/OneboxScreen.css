@@ -1,0 +1,34 @@
+.onebox-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 20px;
+    background-color: var(--background-color);
+}
+
+.onebox-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: var(--secondary-color);
+    border-bottom: 1px solid #ccc;
+}
+
+.onebox-list {
+    flex: 1;
+    overflow-y: auto;
+    margin-top: 20px;
+}
+
+.onebox-item {
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: var(--secondary-color);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.onebox-item:hover {
+    background-color: lighten(var(--secondary-color), 10%);
+}
